@@ -12,5 +12,9 @@ programa{
     escreva("Digite um número para verificar se é positivo!\n")
     escreva("Digite aqui: ")
     leia(num)
+
+    se(num < 0){
+      escreva("O número, ", num, " Não é positivo!")
+    }
   }
 }
