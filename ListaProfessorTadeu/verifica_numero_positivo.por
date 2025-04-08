@@ -15,6 +15,8 @@ programa{
 
     se(num < 0){
       escreva("O número, ", num, " Não é positivo!")
+    }senao se(num == 0){
+      escreva("O zero não é um número positivo, mas um número neutro"
     }
   }
 }
