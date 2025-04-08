@@ -13,10 +13,14 @@ programa{
     escreva("Digite aqui: ")
     leia(num)
 
+    limpa()
+
     se(num < 0){
-      escreva("O número, ", num, " Não é positivo!")
+      escreva("O número, ", num, "  não é positivo!")
     }senao se(num == 0){
-      escreva("O zero não é um número positivo, mas um número neutro"
+      escreva("O zero não é um número positivo, mas um número neutro")
+    }senao{
+      escreva("O número, ", num, " é positivo!")
     }
   }
 }
