@@ -19,5 +19,11 @@ programa{
     se(vet[0] < vet[1] e vet[0] < vet[2]){
         escreva("O número ", vet[0], " é menor que o número ", vet[1], " e ", vet[2], ".")    
     }
+    senao se(vet[1] < vet[0] e vet[1] < vet[2]){
+        escreva("O número ", vet[1], " é menor que o número ", vet[0], " e ", vet[2], ".")
+    }
+    senao{
+        escreva("O número ", vet[2], " é menor que o número ", vet[0], " e ", vet[1], ".")
+    }
   }
 }
