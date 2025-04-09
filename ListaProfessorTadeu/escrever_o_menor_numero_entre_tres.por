@@ -14,6 +14,10 @@ programa{
         leia(vet[pos])
     }
 
+    limpa()
 
+    se(vet[0] < vet[1] e vet[0] < vet[2]){
+        escreva("O número ", vet[0], " é menor que o número ", vet[1], " e ", vet[2], ".")    
+    }
   }
 }
