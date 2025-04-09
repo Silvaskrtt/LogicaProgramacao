@@ -15,8 +15,14 @@ inclua biblioteca Util --> u
 
     limpa()
 
-    se(num % 2 == 0){
+    se(num < 0){
+        escreva("O número ", num, " é inválido!")
+    }
+    senao se(num % 2 == 0){
         escreva("O número ", num, " é Par!")
+    }
+    senao se(num % 2 != 0){
+        escreva("O número ", num, " é Ímpar!")
     }
   }
 }
