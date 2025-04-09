@@ -13,7 +13,10 @@ inclua biblioteca Util --> u
     escreva("Digite aqui: ")
     leia(num)
 
-    
+    limpa()
 
+    se(num % 2 == 0){
+        escreva("O número ", num, " é Par!")
+    }
   }
 }
