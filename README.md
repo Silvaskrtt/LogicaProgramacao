@@ -1,9 +1,9 @@
 # 💻 Lista de Exercícios - Python | SENAI
 
-Repositório criado para armazenar as soluções da lista de exercícios da disciplina **Desenvolvimento – Linguagem Python**, ministrada pelo professor **Tadeu Paes**.
+Repositório criado para armazenar as soluções da lista de exercícios da disciplina **Desenvolvimento – Pseudolinguagem Portugol**, ministrada pela professora **Karine Rosário**.
 
 ## 📚 Objetivo
-Praticar a lógica de programação utilizando a linguagem Python com foco em entrada de dados, operadores, condicionais e cálculos matemáticos.
+Praticar a lógica de programação utilizando a Pseudolinguagem Portugol com foco em entrada de dados, operadores, condicionais e cálculos matemáticos.
 
 ---
 
@@ -107,7 +107,7 @@ git clone https://github.com/seu-usuario/seu-repo.git
 cd seu-repo
 
 # Execute o arquivo desejado
-python exercicio_01.py
+portugol exercicio_01.por
 ```
 
 ---
