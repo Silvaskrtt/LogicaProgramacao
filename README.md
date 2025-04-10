@@ -1,4 +1,4 @@
-# 💻 Lista de Exercícios - Portugol | SENAI
+# 💻 Lista de Exercícios - Portugol
 
 Repositório criado para armazenar as soluções da lista de exercícios da disciplina **Desenvolvimento – Pseudolinguagem Portugol**, ministrada pela professora **Karine Rosário**.
 
