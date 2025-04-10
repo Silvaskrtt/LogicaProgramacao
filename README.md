@@ -101,7 +101,7 @@ Para rodar os exercícios localmente:
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/seu-repo.git
+gh repo clone Silvaskrtt/LogicaProgramacao
 
 # Acesse a pasta
 cd seu-repo
