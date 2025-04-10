@@ -9,7 +9,7 @@ inclua biblioteca Util --> u
     u.aguarde(3000)
     limpa()
 
-    escreva("Insira abaixo os valores a serem multiplicados!")
+    escreva("Insira abaixo os valores a serem multiplicados!\n")
     para(pos = 0; pos < 2; pos++){
     escreva("Digite o ", pos + 1, "° número: ")
     leia(vet[pos])
@@ -17,6 +17,6 @@ inclua biblioteca Util --> u
 
     calcMultiplicacao = vet[0]*vet[1]
 
-    escreva("O valor do produto da multiplicação de ", vet[0], "x", vet[1], " foi igual à ", calcMultiplicacao, ".")
+    escreva("O produto de ", vet[0], "x", vet[1], " é igual a ", calcMultiplicacao, ".")
   }
 }
