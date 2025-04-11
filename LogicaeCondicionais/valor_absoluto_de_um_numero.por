@@ -13,7 +13,9 @@ inclua biblioteca Util --> u
     leia(num)
     limpa()
 
-    
+    calcAbsoluto = num * -1
+
+    escreva("O valor absoluto é exatamente: ", calcAbsoluto)
       
   }
 }
