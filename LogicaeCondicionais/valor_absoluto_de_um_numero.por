@@ -13,9 +13,12 @@ inclua biblioteca Util --> u
     leia(num)
     limpa()
 
-    calcAbsoluto = num * -1
 
-    escreva("O valor absoluto é exatamente: ", calcAbsoluto)
-      
+    se(num < 0){
+      calcAbsoluto = num * -1
+      escreva("O valor absoluto é exatamente: ", calcAbsoluto)
+    }
+    senao{
+      escreva("O valor absoluto é exatamente: ", num)
+    }
   }
-}
