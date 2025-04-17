@@ -1,31 +1,27 @@
-programa {
-    inclua biblioteca Util --> u
-    inclua biblioteca Matematica --> mat
+programa{
+  inclua biblioteca Util --> u
+  inclua biblioteca Matematica --> mat
+  inclua biblioteca Tipos --> t
 
-    funcao inicio() {
+  funcao inicio() {
 
-        real num, raiz
+  real num
+  inteiro raiz
 
-        escreva("Bem-vindo ao Verificador de Quadrado Perfeito!")
-        u.aguarde(2000)
-        limpa()
+  escreva("Bem-vindo ao Verificador de Quadrado Perfeito!")
+  u.aguarde(2000)
+  limpa()
 
-        escreva("Digite um número: ")
-        leia(num)
-        limpa()
+  escreva("Digite um número: ")
+  leia(num)
+  limpa()
 
-        se(num < 0){
-            escreva("Números negativos não possuem raiz quadrada real.")
-        }
-        senao{
-            raiz = mat.raiz(num, 2.0)
-
-        se(raiz == raizInteira){
-        	escreva("O número ", num, " é um quadrado perfeito!")
-        }
-        senao{
-        	escreva("O número ", num, " NÃO é um quadrado perfeito.")
-      }
+  se(quadradoPerfeito(n)){
+    escreva(num, "é quadrado perfeito")
+    }
+  senao{
+    escreva(num, "não é quadrado perfeito")
     }
   }
+  
 }
