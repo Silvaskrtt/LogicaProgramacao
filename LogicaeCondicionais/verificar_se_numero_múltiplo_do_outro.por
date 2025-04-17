@@ -15,8 +15,13 @@ inclua biblioteca Util --> u
         leia(vet[pos])
     }
 
+    limpa()
+
     se(vet[0] % vet[1] == 0){
         escreva("O número ", vet[0], " é múltiplo de ", vet[1])
-    } 
+    }
+    senao{
+        escreva("O número ", vet[0], " não é múltiplo de ", vet[1]")
+    }
   }
 }
