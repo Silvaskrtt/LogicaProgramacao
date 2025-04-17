@@ -3,10 +3,10 @@ programa{
   inclua biblioteca Matematica --> mat
   inclua biblioteca Tipos --> t
 
-  funcao inicio() {
-
   real num
   inteiro raiz
+
+  funcao inicio() {
 
   escreva("Bem-vindo ao Verificador de Quadrado Perfeito!")
   u.aguarde(2000)
@@ -16,12 +16,16 @@ programa{
   leia(num)
   limpa()
 
-  se(quadradoPerfeito(n)){
-    escreva(num, "é quadrado perfeito")
+  se(quadradoPerfeito(num)){
+    escreva("O número ", num, " é quadrado perfeito!")
     }
   senao{
-    escreva(num, "não é quadrado perfeito")
+    escreva("O número", num, " não é quadrado perfeito!")
     }
   }
-  
+
+  funcao logico quadradoPerfeito(real x){
+    raiz = t.real_para_inteiro(mat.raiz(x, 2.0))
+    retorne raiz * raiz == x
+  }
 }
