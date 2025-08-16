@@ -15,7 +15,7 @@ programa
                 escreva ("O número ", numero, " é negativo!\n")
         }  
             senao {
-                escreva ("O número ", numero, "é considerado um número neutro!\n")
+                escreva ("O número ", numero, " é considerado um número neutro!\n")
         }
 
             escreva("Digite um número positivo: ")
