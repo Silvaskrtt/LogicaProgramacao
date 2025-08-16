@@ -25,9 +25,9 @@ programa{
             para(pos = 0; pos < 2; pos++){
                 escreva ("Digite o ", pos + 1, "º número: ")
                 leia(vet[pos])
-        } 
+            } 
         limpa()     
-    }
+        }
         se (vet[0] > vet[1]) {
             escreva ("O número ", vet[0], " é maior que ", vet[1], ".\n")
         }

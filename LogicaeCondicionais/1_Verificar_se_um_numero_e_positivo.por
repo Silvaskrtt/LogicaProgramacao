@@ -13,15 +13,15 @@ programa
         enquanto (numero <= 0) {
             se ( numero < 0) {
                 escreva ("O número ", numero, " é negativo!\n")
-        }  
+            }  
             senao {
                 escreva ("O número ", numero, " é considerado um número neutro!\n")
-        }
+            }
 
             escreva("Digite um número positivo: ")
             leia(numero)
             limpa()
-    }
+        }
         // Exibindo o resultado
         escreva ("O número ", numero, " é positivo!")
     }
