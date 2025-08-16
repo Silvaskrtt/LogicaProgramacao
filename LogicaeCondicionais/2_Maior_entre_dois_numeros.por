@@ -2,7 +2,7 @@ programa{
     inclua biblioteca Util --> u
 
     funcao inicio(){
-        inteiro vet[2], pos, maior
+        inteiro vet[2], pos
 
         // Mensagem de boas-vinda ao usuário
         escreva ("Bem-vindo ao Verificador de Maior entre dois números!")
@@ -20,8 +20,8 @@ programa{
         limpa()
 
         // Condição de verificação dos valores digitados pelo usuário
-        enquanto (vet[0] == vet[1] ou vet[1] == vet[0]) {
-            escreva("Os valores são iguais!\nPor favor, digite novamente:")
+        enquanto (vet[0] == vet[1]) {
+            escreva("Os valores são iguais!\nPor favor, digite novamente: ")
             para(pos = 0; pos < 2; pos++){
                 escreva ("Digite o ", pos + 1, "º número: ")
                 leia(vet[pos])
