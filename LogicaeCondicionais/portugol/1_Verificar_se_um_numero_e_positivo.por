@@ -5,6 +5,11 @@ programa
         // Declarando a variavel que recebe o valor digitado
         real numero
 
+        // Mensagem de boas-vinda para o usuário
+        escreva ("Seja bem-vinda a sua calculadora divisão")
+        u.aguarde(3000)
+        limpa()
+
         // Entrada do usuário
         escreva("Digite um número positivo: ")
         leia(numero)
