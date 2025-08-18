@@ -2,7 +2,7 @@ package logicaecondicionais.Java;
 
 import java.util.Scanner; // programa utiliza classe Scanner
 
-public class Verificar_se_um_numero_e_positivo_1 {
+public class VerificarNumeroPositivo {
     
     public static void main(String[] args) {
 
