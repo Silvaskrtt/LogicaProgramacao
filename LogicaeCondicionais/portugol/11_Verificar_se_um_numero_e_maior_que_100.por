@@ -19,7 +19,10 @@ programa {
 
         // Condição para verficar o valor 
         se (num < 100) {
-            escreva ("O valor ", num, "é menor que 100.")
+            escreva ("O valor ", num, " é menor que 100.")
+        }
+        senao se (num == 100) {
+            escreva ("O número é exatamente 100.")
         } senao {
             escreva ("O valor ", num, " é maior que 100.")
         }
