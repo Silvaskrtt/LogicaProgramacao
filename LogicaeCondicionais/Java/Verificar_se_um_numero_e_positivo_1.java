@@ -1,0 +1,25 @@
+package logicaecondicionais.Java;
+
+import java.util.Scanner; // programa utiliza classe Scanner
+
+public class Verificar_se_um_numero_e_positivo_1 {
+    
+    public static void main(String[] args) {
+
+        // cria um Scanner para receber entrada a partir do prompt
+        try (Scanner input = new Scanner(System.in)) {
+
+            System.out.print("Digite o valor que deseja verificar: ");
+            int number = input.nextInt(); // Lê o valor digitado pelo user
+
+            // Condições para verificar se o número é positivo
+            if (number < 0) {
+                System.out.printf("O número %d é negativo.%n", number);
+            } else if (number == 0) {
+                System.out.printf("O número %d é neutro.%n", number);
+            } else {
+                System.out.printf("O número %d é positivo.%n", number);
+            }
+        }
+    }
+}
