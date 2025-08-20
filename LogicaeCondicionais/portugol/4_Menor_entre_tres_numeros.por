@@ -10,7 +10,7 @@ programa {
         limpa()
 
         // Entrada de dados com LOOP
-        escreva("Digite os valores que deseja verificar:\n")
+        escreva("Digite os valores que deseja verificar!\n")
         para (pos = 0; pos < 3; pos++) {
             escreva("Digite o ", pos + 1, "º número: ")
             leia(vet[pos])
