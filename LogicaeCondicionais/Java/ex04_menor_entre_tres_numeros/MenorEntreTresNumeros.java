@@ -1,4 +1,4 @@
-package logicaecondicionais.Java;
+package LogicaeCondicionais.Java.ex04_menor_entre_tres_numeros;
 
 import java.util.Scanner;
 

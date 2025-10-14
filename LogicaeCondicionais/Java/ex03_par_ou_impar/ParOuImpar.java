@@ -1,4 +1,4 @@
-package logicaecondicionais.Java;
+package LogicaeCondicionais.Java.ex03_par_ou_impar;
 
 import java.util.Scanner; // Classe Scanner para receber valores pelo promp
 

@@ -1,4 +1,4 @@
-package logicaecondicionais.Java;
+package LogicaeCondicionais.Java.ex01_verificar_numero_positivo;
 
 import java.util.Scanner; // programa utiliza classe Scanner
 

@@ -1,4 +1,4 @@
-package logicaecondicionais.Java;
+package LogicaeCondicionais.Java.ex02_maior_entre_dois_numeros;
 
 import java.util.Scanner;
 
