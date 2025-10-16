@@ -9,7 +9,7 @@ public class MenorEntreTresNumeros {
         try (Scanner input = new Scanner(System.in)) {
 
             // Declarando as variaveis do programa
-            int vet[] = new int[3]; // construindo o vetor
+            int[] vet = new int[3]; // construindo o vetor
             int pos, menor; //  Variavel menor para comparção dos valor e 'pos' = posição que vai ser utilizada no LOOP
 
             // LOOP para entrada de dados
